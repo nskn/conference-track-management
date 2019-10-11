@@ -40,7 +40,7 @@ $ npm install
 // for single task list.
 ➜ $ npm run start resource/talks.txt
 
-> conference-track-management@1.0.0 start /Users/nanda.khorate/Documents/my_project/conference-track-management
+> conference-track-management@1.0.0 start 
 > node app.js $* "resource/talks.txt"
 
 Track 1:
@@ -77,7 +77,7 @@ $ npm run test
 
 ➜  conference-track-management npm run test
 
-> conference-track-management@1.0.0 test /Users/nanda.khorate/Documents/my_project/conference-track-management
+> conference-track-management@1.0.0 test 
 > mocha test/*
 
   Testing for kanpsack.getSchedule(talks, time)  
