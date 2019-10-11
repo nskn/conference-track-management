@@ -1,0 +1,27 @@
+{
+  "name": "conference-track-management",
+  "version": "1.0.0",
+  "description": "Conference Track Management",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js $*",
+    "start:weekend": "node app.js -c common/config/config.weekend.js $*",
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nskn/ConferenceTrackManagement.git"
+  },
+  "keywords": [
+    "Node.js",
+    "ConferenceTrackManagement",
+    "Javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/nskn/ConferenceTrackManagement/issues"
+  },
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^6.2.1"
+  }
+}
